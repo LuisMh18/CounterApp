@@ -1,7 +1,7 @@
 import { useFecth } from "../hooks/useFecth"
-import { LoadingQuote, Quote } from "./";
+import { LoadingQuote, Quote } from "../03-examples";
 
-export const MultipleCustomHooks = () => {
+export const Layout = () => {
 
     const { data, isLoading, hasError, getFetch } = useFecth('https://api.breakingbadquotes.xyz/v1/quotes');
 
