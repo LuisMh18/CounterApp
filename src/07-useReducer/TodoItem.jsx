@@ -1,0 +1,12 @@
+
+export const TodoItem = ({ value }) => {
+  return (
+    <>
+      <li className="list-group-item d-flex justify-content-between">
+            <span className="align-self-center">{ value.description }</span>
+            <button className="btn btn-danger">Borrar</button>
+        </li>
+    </>
+  )
+}
+
