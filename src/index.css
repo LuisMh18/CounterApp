@@ -9,3 +9,9 @@ button{
 .cursorPointer{
     cursor: pointer;
 }
+
+
+a{
+    margin-right: 10px;
+    text-decoration: none;
+}
